@@ -1,23 +1,23 @@
-# capstone-data-analytics
+# Housing Affordability Analysis – Maricopa County (2020–2024)
+
 Final Capstone Project for Data Analytics Course
-Housing Affordability Analysis – Maricopa County (2020–2024)
 ## Overview
 
 This project analyzes housing affordability across ZIP codes in Maricopa County, Arizona by examining the relationship between median household income and median home value.
 
 The goal of this analysis is to determine:
 
-Whether higher income leads to higher home values
-How affordability varies across different geographic areas
-Which ZIP codes show the greatest affordability challenges
+- Whether higher income leads to higher home values
+- How affordability varies across different geographic areas
+- Which ZIP codes show the greatest affordability challenges
 
 The project combines data analysis, visualization, and dashboard design to provide insights that can support decision-making for policymakers, businesses, and communities.
 
 ## Technologies Used
-Python (pandas, matplotlib) – Data cleaning, transformation, and analysis
-Microsoft Power BI – Interactive dashboard and data visualization
-PolicyMap / U.S. Census ACS Data (2020–2024) – Data source
-GitHub – Project organization and version control
+- Python (pandas, matplotlib) – Data cleaning and analysis  
+- Microsoft Power BI – Interactive dashboard  
+- PolicyMap / U.S. Census ACS Data – Data source  
+- GitHub – Version control  
 
 ## How to Reproduce the Analysis
 1. Download the Data
@@ -68,31 +68,26 @@ Real-world implications
 
 DariusJohnson-Capstone/
 
-data/
-
-maricopa_housing_data_raw.csv
-maricopa_housing_data_cleaned.csv
-
-python/
-
-capstone_data_cleaning_modeling.py
-
-powerbi/
-
-DariusJohnson_Final_Capstone_PowerBI.pbix
-
-images/
-
-scatter_plot.png
-bar_chart.png
-map.png
-dashboard.png
-
-report/
-
-Housing_Affordability_Report.docx
-
-README.md
+├── data/
+│   ├── maricopa_housing_data_raw.csv
+│   └── maricopa_housing_data_cleaned.csv
+│
+├── python/
+│   └── capstone_data_cleaning_modeling.py
+│
+├── powerbi/
+│   └── DariusJohnson_Final_Capstone_PowerBI.pbix
+│
+├── images/
+│   ├── scatter_plot.png
+│   ├── bar_chart.png
+│   ├── map.png
+│   └── dashboard.png
+│
+├── report/
+│   └── Housing_Affordability_Report.docx
+│
+└── README.md
 
 ## Key Findings
 There is a strong positive relationship between income and home value
