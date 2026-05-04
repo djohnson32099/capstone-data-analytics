@@ -1,7 +1,7 @@
 # capstone-data-analytics
 Final Capstone Project for Data Analytics Course
 Housing Affordability Analysis – Maricopa County (2020–2024)
-Overview
+## Overview
 
 This project analyzes housing affordability across ZIP codes in Maricopa County, Arizona by examining the relationship between median household income and median home value.
 
@@ -13,12 +13,13 @@ Which ZIP codes show the greatest affordability challenges
 
 The project combines data analysis, visualization, and dashboard design to provide insights that can support decision-making for policymakers, businesses, and communities.
 
-Technologies Used
+## Technologies Used
 Python (pandas, matplotlib) – Data cleaning, transformation, and analysis
 Microsoft Power BI – Interactive dashboard and data visualization
 PolicyMap / U.S. Census ACS Data (2020–2024) – Data source
 GitHub – Project organization and version control
-How to Reproduce the Analysis
+
+## How to Reproduce the Analysis
 1. Download the Data
 
 Use the dataset provided in the /data folder:
@@ -62,7 +63,8 @@ Hypotheses and statistical reasoning
 Data analysis and visual interpretation
 Dashboard explanation
 Real-world implications
-File Structure
+
+## File Structure
 
 DariusJohnson-Capstone/
 
@@ -92,7 +94,7 @@ Housing_Affordability_Report.docx
 
 README.md
 
-Key Findings
+## Key Findings
 There is a strong positive relationship between income and home value
 Housing prices vary significantly across ZIP codes
 Higher-income areas tend to have lower affordability (higher price-to-income ratios)
